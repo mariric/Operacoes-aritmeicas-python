@@ -47,9 +47,7 @@ print (f"Exibir resultado da Resto da divisão: {resto}")
 print (f"Exibir resultado da potência: {potencia}")
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-# Exercício 2
 
-from re import I
 # Exercício 2
 
 Faça um programa que o usuário digita um valor inteiro e nós mostramos toda a tabuada daquele número.
