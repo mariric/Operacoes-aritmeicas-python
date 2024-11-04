@@ -1,11 +1,12 @@
 # Operacoes-aritmeicas-python
 Exercícios aritméticos em python (validados e corrigidos)
-# Criar variáveis n1 e n2 que receberão inputs do tipo INT do usuário. (não se esqueça de tratar o que está sendo recebido rsrs) 
-# Exibir o resultado da Adição dessas 2 variáveis. Exibir o resultado da Subtração dessas variáveis. 
-# Exibir o resultado da Multiplicação dessas variáveis. 
-# Exibir o resultado da Divisão dessas variáveis. 
-# Exibir o resultado do Módulo (Resto da divisão) entre essas variáveis. 
-# Exibir o resultado de uma variável Exponenciando a outra. [ ]
+# Exercício 1
+Criar variáveis n1 e n2 que receberão inputs do tipo INT do usuário. (não se esqueça de tratar o que está sendo recebido rsrs) 
+Exibir o resultado da Adição dessas 2 variáveis. Exibir o resultado da Subtração dessas variáveis. 
+Exibir o resultado da Multiplicação dessas variáveis. 
+Exibir o resultado da Divisão dessas variáveis. 
+Exibir o resultado do Módulo (Resto da divisão) entre essas variáveis. 
+Exibir o resultado de uma variável Exponenciando a outra. [ ]
 
 -- Resultado Esperado
     #N1: 7
@@ -44,3 +45,19 @@ print (f"Exibir resultado da divisão: {divisao}")
 print (f"Exibir resultado da Resto da divisão: {resto}")
 
 print (f"Exibir resultado da potência: {potencia}")
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# Exercício 2
+
+from re import I
+# Exercício 2
+
+Faça um programa que o usuário digita um valor inteiro e nós mostramos toda a tabuada daquele número.
+
+numero=int(input("digite um numero inteiro: "))
+
+for i in range(1,11): -- for cria um espécie de laço, onde o número percorre, enquanto "i" pe uma variável temporária; e range (1,11) informa onde começa e onde termina
+
+   resultado = numero * i
+   
+   print(f"{numero} x {i} = {resultado}")
