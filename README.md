@@ -18,18 +18,29 @@ Exercícios aritméticos em python (validados e corrigidos)
     #16807
 
 n1 = int(input("Digite o primeiro número(n1) "))
+
 n2 = int(input("Digite o segundo número(n2)  "))
 
 soma = n1 + n2
+
 subtracao = n1-n2
+
 multiplicacao = n1 * n2
+
 divisao = n1 / n2
+
 resto = n1 % n2
+
 potencia = n1 ** n2
 
 print (f"Exibir resultado da Adição: {soma}" )
+
 print (f"Exibir resultado da Subtração: {subtracao}")
+
 print (f"Exibir resultado da multiplicação: {multiplicacao}")
+
 print (f"Exibir resultado da divisão: {divisao}")
+
 print (f"Exibir resultado da Resto da divisão: {resto}")
+
 print (f"Exibir resultado da potência: {potencia}")
