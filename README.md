@@ -59,3 +59,17 @@ for i in range(1,11): -- for cria um espécie de laço, onde o número percorre,
    resultado = numero * i
    
    print(f"{numero} x {i} = {resultado}")
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Exercício 3
+
+Faça um programa no qual o usuário digite a distância percorrida por um carro e a qtd de litros de combustível gasto.
+
+Calcule e mostre para o usuário quantos km/l o seu carro faz.
+
+distancia = int(input("digite a distância percorrida pelo seu carro: "))
+
+combustivel = int(input("digite a quantidade de litros gastos: "))
+
+consumo = distancia / combustivel
+print (f"O seu carro fez: {consumo}")
